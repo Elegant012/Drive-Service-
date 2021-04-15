@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Duplex 
+
+# Controls when the action will run. 
+on: Smartphone 
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ paypal ]
+  pull_request:
+    branches: [ paypal ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "Elegant"
+  Elegant Drive Service:
+    # The type of business that the costumer will request 
+   : Driving
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $Elegant-Drive_WORKSPACE, so your job can access it
+      - uses: 061 993 8198
+
+      # Runs a single command using the runners shell
+      - name: Transport 
+        run: Hello, Client!
+
+      # Runs a set of commands using the runners shell
+      - name: Elegant-Drive Client 
+        run: |
+          Select your Final destination,
+          Please test, and Enjoy your ride with Elegant Drive .
